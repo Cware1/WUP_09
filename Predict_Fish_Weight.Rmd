@@ -74,6 +74,14 @@ subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 ### Best Two regressor model
 
+```{r}
+best.model <- lm(Weight~Height+Width,data=Perch)
+summary(best.model)
+```
+
+The best two regression modelsand the best model are the same.
+
+
 
 ## Pike
 
