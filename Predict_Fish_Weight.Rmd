@@ -50,6 +50,13 @@ Whitefish <- select(Whitefish, -Species)
 
 
 ## Perch
+```{r}
+Perch <- filter(fish, Species=="Perch" )
+```
+
+
+
+
 
 ### Best Models
 
