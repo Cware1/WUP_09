@@ -73,7 +73,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
-Per the data, the Best Two regressor model is Height-Width. The overall best model is also Height-Width. 
+Per the data, the Best Two regressor model is H-W. The overall best model is also H-W. 
 
 ### Best Two regressor model
 
@@ -82,7 +82,7 @@ best.model <- lm(Weight~Height+Width,data=Perch)
 summary(best.model)
 ```
 
-The best two regression models and the best model are the same. 2 is the best model
+The best two regression models and the best model are the same. H-W is the best model
 
 
 ## Pike
@@ -111,7 +111,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 
 
-Per the data, the Best Two regressor model is Length1-Length3. The best overall model is 5.    
+Per the data, the Best Two regressor model is L1-L2. The best overall model is L1-L2-L3-H-W.    
 
 ### Best Two regressor model
 
@@ -120,7 +120,7 @@ best.model <- lm(Weight~Height+Width,data=Pike)
 summary(best.model)
 ```
 
-Per the data, the Best Two regressor model is Length1-Length3.
+Per the data, the Best Two regressor model is L1-L3.
 
 ## Roach
 
@@ -148,7 +148,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
-Per the data, the Best Two regressor model Length3-W. Length3-W is also the best overall.
+Per the data, the Best Two regressor model is L3-W. L3-W is also the best overall.
 
 ### Best Two regressor model
 
@@ -157,6 +157,6 @@ best.model <- lm(Weight~Height+Width,data=Roach)
 summary(best.model)
 ```
 
-Per the data, the Best Two regressor model is Length3-W.
+Per the data, the Best Two regressor model is L3-W.
 
 ## Final Summary Statements
