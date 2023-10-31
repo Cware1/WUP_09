@@ -82,7 +82,7 @@ best.model <- lm(Weight~Height+Width,data=Perch)
 summary(best.model)
 ```
 
-The best two regression models and the best model are the same. Two is the best model
+The best two regression models and the best model are the same. 2 is the best model
 
 
 ## Pike
@@ -109,6 +109,9 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
+
+
+Per the data, model 5 is the best model.   
 
 ### Best Two regressor model
 
