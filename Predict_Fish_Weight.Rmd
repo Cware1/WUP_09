@@ -120,6 +120,7 @@ best.model <- lm(Weight~Height+Width,data=Pike)
 summary(best.model)
 ```
 
+Per the data, the best model is 5. However, model 5 is not the best regressor model.
 
 ## Roach
 
@@ -155,5 +156,7 @@ Per the data model 2 is the best model.
 best.model <- lm(Weight~Height+Width,data=Roach)
 summary(best.model)
 ```
+
+Per the data, the best model and best Two regressor model is model 2.
 
 ## Final Summary Statements
