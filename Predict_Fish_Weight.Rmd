@@ -160,3 +160,10 @@ summary(best.model)
 Per the data, the Best Two regressor model is L3-W.
 
 ## Final Summary Statements
+
+Per the data for Perch, the Best Two regressor model is H-W. The overall best model is also H-W. 
+
+Per the data for Pike, the Best Two regressor model is L1-L2. The best overall model is L1-L2-L3-H-W.
+
+Per the data for Roach, the Best Two regressor model is L3-W. L3-W is also the best overall.
+
