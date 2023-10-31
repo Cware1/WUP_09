@@ -72,6 +72,9 @@ as.data.frame(summary.out$outmat)
 library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
+
+Per the data, model 2 is the best model.
+
 ### Best Two regressor model
 
 ```{r}
@@ -79,7 +82,7 @@ best.model <- lm(Weight~Height+Width,data=Perch)
 summary(best.model)
 ```
 
-The best two regression models and the best model are the same.
+The best two regression models and the best model are the same. Two is the best model
 
 
 ## Pike
