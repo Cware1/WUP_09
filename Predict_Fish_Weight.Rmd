@@ -73,7 +73,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
 
-Per the data, model 2 is the best model.
+Per the data, the Best Two regressor model is Height-Width. The overall best model is also Height-Width. 
 
 ### Best Two regressor model
 
